@@ -25,6 +25,7 @@ namespace FlottaApp
         {
             Rendszam = rendszam;
             Alapar = alapar;
+            osszesJarmuSzama++;
         }
         public virtual int Adokalkulacio(int alapar)
         {
